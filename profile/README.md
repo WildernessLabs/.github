@@ -15,7 +15,7 @@
 
 | Meadow.Foundation |  |  |
 |------------|--------|-------| 
-| [![Meadow.Foundation](https://badgen.net/badge/Repository/Meadow.Foundation/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Foundation) | | |
+| [![Meadow.Foundation](https://badgen.net/badge/Repository/Meadow.Foundation/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Foundation) | [![Develop Branch](https://github.com/WildernessLabs/Meadow.Foundation/actions/workflows/develop-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.Foundation/actions/workflows/develop-ci.yml) | |
 | [![Meadow.Foundation.FeatherWings](https://badgen.net/badge/Repository/Meadow.Foundation.FeatherWings/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Foundation.FeatherWings) | | |
 | [![Meadow.Foundation.Grove](https://badgen.net/badge/Repository/Meadow.Foundation.Grove/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Foundation.Grove) | | |
 | [![Meadow.Foundation.mikroBUS](https://badgen.net/badge/Repository/Meadow.Foundation.mikroBUS/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Foundation.mikroBUS) | | |
@@ -33,3 +33,10 @@
 | [![Meadow.Project.Samples](https://badgen.net/badge/Repository/Meadow.Project.Samples/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Project.Samples) | | |
 | [![Meadow.Desktop.Samples](https://badgen.net/badge/Repository/Meadow.Desktop.Samples/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Desktop.Samples) | | |
 | [![Meadow.ProjectLab.Samples](https://badgen.net/badge/Repository/Meadow.ProjectLab.Samples/blue?icon=github)](https://github.com/WildernessLabs/Meadow.ProjectLab.Samples) | | |
+
+| Tooling |  |  |
+|------------|--------|-------| 
+| [![Meadow.CLI](https://badgen.net/badge/Repository/Meadow.CLI/blue?icon=github)](https://github.com/WildernessLabs/Meadow.CLI) | | |
+| [![VS_Win_Meadow_Extension ](https://badgen.net/badge/Repository/VS_Win_Meadow_Extension/blue?icon=github)](https://github.com/WildernessLabs/VS_Win_Meadow_Extension) | | |
+| [![VS_Mac_Meadow_Extension ](https://badgen.net/badge/Repository/VS_Mac_Meadow_Extension/blue?icon=github)](https://github.com/WildernessLabs/VS_Mac_Meadow_Extension) | | |
+| [![VSCode_Meadow_Extension ](https://badgen.net/badge/Repository/VSCode_Meadow_Extension/blue?icon=github)](https://github.com/WildernessLabs/VSCode_Meadow_Extension) | | |
