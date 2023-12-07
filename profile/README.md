@@ -2,9 +2,22 @@
 
 Welcome to the Wilderness Labs GitHub home! Here you will find our device platform code. It is nearly completely open and we're working on cleaning up and opening the remaining bits.
 
+## Contents
+* [Meadow Software Stack](#meadow-software-stack)
+* [Managed Meadow.IoT Platform Stack](#managed-meadowiot-platform-stack)
+* [Repo Status](#repo-status)
+    * [Meadow.Core Repos](#meadowcore-repos)
+    * [Meadow.Foundation Repos](#meadowfoundation-repos)
+    * [Tooling](#tooling)
+    * [IoT Accelerator Repos](#iot-accelerator-repos)
+    * [Project Samples](#project-samples)
+* [Support](#support)
+
+## Meadow Software Stack
+
 The following diagram illustrates the layers of the device platform:
 
-![Illustration fo the Wilderness Labs IoT Platform stack including Meadow.Foundation (with an associated sensor code sample), Meadow.Core (with a sample hardware API), and the OS services layer including things like sleep APIs, health-monitoring, etc.](https://github.com/WildernessLabs/.github-private/blob/main/profile/Platform_Stack.png)
+![Illustration fo the Wilderness Labs IoT Platform stack including Meadow.Foundation (with an associated sensor code sample), Meadow.Core (with a sample hardware API), and the OS services layer including things like sleep APIs, health-monitoring, etc.](./Design/Platform_Stack.png)
 
 For a more complete understanding of the platform, please check out our [developer documentation](http://developer.wildernesslabs.co/).
 
@@ -13,6 +26,8 @@ For a more complete understanding of the platform, please check out our [develop
 The managed portion of the Meadow.IoT stack includes the following layers:
 * **Meadow.Core** - Contains the hardware APIs and userland services that run on Meadow.OS and other .NET capable operating systems and expose the underlying hardware and platform services.
 * **Meadow.Foundation** - Peripheral drivers and libraries that run on Meadow.Core and provides plug-and-play APIs for sensors, motors, displays, etc., as well as high level libraries for working with hardware devices. For a full list of supported peripherals and included libraries refer to [this page](https://developer.wildernesslabs.co/Meadow/Meadow.Foundation/Peripherals/). 
+
+## Repo Status
 
 ### Meadow.Core Repos
 
@@ -37,7 +52,7 @@ The managed portion of the Meadow.IoT stack includes the following layers:
 | [![Meadow.Foundation.CompositeDevices](https://badgen.net/badge/Repository/Meadow.Foundation.CompositeDevices/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Foundation.CompositeDevices) | [![Main Branch](https://github.com/WildernessLabs/Meadow.Foundation.CompositeDevices/actions/workflows/main-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.Foundation.CompositeDevices/actions/workflows/main-ci.yml) | [![Develop Branch](https://github.com/WildernessLabs/Meadow.Foundation.CompositeDevices/actions/workflows/develop-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.Foundation.CompositeDevices/actions/workflows/develop-ci.yml) |
 | [![Meadow.Foundation.Web.Maple](https://badgen.net/badge/Repository/Meadow.Foundation.Web.Maple/blue?icon=github)](https://github.com/WildernessLabs/Maple) | [![Main Branch](https://github.com/WildernessLabs/Maple/actions/workflows/main-ci.yml/badge.svg)](https://github.com/WildernessLabs/Maple/actions/workflows/main-ci.yml) | [![Develop Branch](https://github.com/WildernessLabs/Maple/actions/workflows/develop-ci.yml/badge.svg)](https://github.com/WildernessLabs/Maple/actions/workflows/develop-ci.yml) |
 
-## Tooling
+### Tooling
 
 The tooling stack includes both the CLI source as well as the IDE extensions.
 
@@ -49,7 +64,7 @@ The tooling stack includes both the CLI source as well as the IDE extensions.
 | [![VSCode_Meadow_Extension ](https://badgen.net/badge/Repository/VSCode_Meadow_Extension/blue?icon=github)](https://github.com/WildernessLabs/VSCode_Meadow_Extension) |
 
 
-## IoT Accelerator Repos
+### IoT Accelerator Repos
 
 All of the IoT accelerator designs can be found below:
 
@@ -60,7 +75,7 @@ All of the IoT accelerator designs can be found below:
 | [![Meadow.ProjectLab](https://badgen.net/badge/Repository/Meadow.ProjectLab/blue?icon=github)](https://github.com/WildernessLabs/Meadow.ProjectLab) | [![NuGet Badge](https://buildstats.info/nuget/Meadow.ProjectLab)](https://www.nuget.org/packages/Meadow.ProjectLab) | [![Main Branch](https://github.com/WildernessLabs/Meadow.ProjectLab/actions/workflows/main-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.ProjectLab/actions/workflows/main-ci.yml) | [![Develop Branch](https://github.com/WildernessLabs/Meadow.ProjectLab/actions/workflows/develop-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.ProjectLab/actions/workflows/develop-ci.yml) |
 | [![Meadow.GNSS_Sensor_Tracker](https://badgen.net/badge/Repository/GNSS_Sensor_Tracker/blue?icon=github)](https://github.com/WildernessLabs/GNSS_Sensor_Tracker) | [![NuGet Badge](https://buildstats.info/nuget/Meadow.GnssTracker)](https://www.nuget.org/packages/Meadow.GnssTracker) | [![Main Branch](https://github.com/WildernessLabs/GNSS_Sensor_Tracker/actions/workflows/main-ci.yml/badge.svg)](https://github.com/WildernessLabs/GNSS_Sensor_Tracker/actions/workflows/main-ci.yml) | [![Develop Branch](https://github.com/WildernessLabs/GNSS_Sensor_Tracker/actions/workflows/develop-ci.yml/badge.svg)](https://github.com/WildernessLabs/GNSS_Sensor_Tracker/actions/workflows/develop-ci.yml) |
 
-## Project Samples
+### Project Samples
 
 | Repo | `Main` Branch | `Develop` Branch |
 |-----------------|--|--|
@@ -71,3 +86,8 @@ All of the IoT accelerator designs can be found below:
 | [![Meadow.Desktop.Samples](https://badgen.net/badge/Repository/Meadow.Desktop.Samples/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Desktop.Samples) | [![Main Branch](https://github.com/WildernessLabs/Meadow.Desktop.Samples/actions/workflows/main-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.Desktop.Samples/actions/workflows/main-ci.yml) | [![Develop Branch](https://github.com/WildernessLabs/Meadow.Desktop.Samples/actions/workflows/develop-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.Desktop.Samples/actions/workflows/develop-ci.yml) |
 | [![Meadow.ProjectLab.Samples](https://badgen.net/badge/Repository/Meadow.ProjectLab.Samples/blue?icon=github)](https://github.com/WildernessLabs/Meadow.ProjectLab.Samples) | [![Main Branch](https://github.com/WildernessLabs/Meadow.ProjectLab.Samples/actions/workflows/main-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.ProjectLab.Samples/actions/workflows/main-ci.yml) | [![Develop Branch](https://github.com/WildernessLabs/Meadow.ProjectLab.Samples/actions/workflows/develop-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.ProjectLab.Samples/actions/workflows/develop-ci.yml) |
 
+## Support
+
+Found any bugs or issues in one of our repos? 
+* File an [issue](https://github.com/WildernessLabs/Meadow.Desktop.Samples/issues) with a repro case to investigate, and/or
+* Join our [public Slack](http://slackinvite.wildernesslabs.co/), where we have an awesome community helping, sharing and building amazing things using Meadow.
