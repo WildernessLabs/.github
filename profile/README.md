@@ -17,7 +17,7 @@ Welcome to the Wilderness Labs GitHub home! Here you will find our device platfo
 
 The following diagram illustrates the layers of the device platform:
 
-![Illustration fo the Wilderness Labs IoT Platform stack including Meadow.Foundation (with an associated sensor code sample), Meadow.Core (with a sample hardware API), and the OS services layer including things like sleep APIs, health-monitoring, etc.](Design/Platform_Stack.png)
+![Illustration fo the Wilderness Labs IoT Platform stack including Meadow.Foundation (with an associated sensor code sample), Meadow.Core (with a sample hardware API), and the OS services layer including things like sleep APIs, health-monitoring, etc.](https://github.com/WildernessLabs/.github/blob/main/profile/Design/Platform_Stack.png)
 
 For a more complete understanding of the platform, please check out our [developer documentation](http://developer.wildernesslabs.co/).
 
