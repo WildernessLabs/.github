@@ -1,4 +1,4 @@
-![Wilderness Labs logo showing two mountains bisected by a tree in a shape that roughly resembles a "W" and the word "Wilderness Labs" to the right of it.](https://github.com/WildernessLabs/.github-private/blob/main/profile/Wilderness-Labs-Logo-Azure-Horizontal.png)
+<img src="Design/wilderness-labs-banner.jpg"  alt="Meadow.ProjectLab, C#, iot" style="margin-bottom:10px" />
 
 Welcome to the Wilderness Labs GitHub home! Here you will find our device platform code. It is nearly completely open and we're working on cleaning up and opening the remaining bits.
 
