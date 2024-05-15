@@ -59,8 +59,8 @@ The managed portion of the Meadow.IoT stack includes the following layers:
 |-----------------|--|--|
 | [![Meadow.Samples](https://badgen.net/badge/Folder/Meadow.Samples/blue?icon=github)](https://github.com/WildernessLabs/Meadow.Samples) | [![Main Branch](https://github.com/WildernessLabs/Meadow.Samples/actions/workflows/meadow-samples-main-ci.yml/badge.svg)](https://github.com/WildernessLabs/meadow.Samples/actions/workflows/meadow-samples-main-ci.yml) | [![Develop Branch](https://github.com/WildernessLabs/Meadow.Samples/actions/workflows/meadow-samples-develop-ci.yml/badge.svg)](https://github.com/WildernessLabs/Meadow.Samples/actions/workflows/meadow-samples-develop-ci.yml) |
 
-| Documentation | | | |
-|-----------------|--|--|--|
+| Documentation | | |
+|-----------------|--|--|
 | [![Documentation](https://badgen.net/badge/Repository/Documentation/blue?icon=github)](https://github.com/WildernessLabs/Documentation) | [![Prod Site](https://github.com/WildernessLabs/Documentation/actions/workflows/publish-site-prod.yml/badge.svg)](https://github.com/WildernessLabs/Documentation/actions/workflows/publish-site-prod.yml) | [![Beta Site](https://github.com/WildernessLabs/Documentation/actions/workflows/publish-site-beta.yml/badge.svg)](https://github.com/WildernessLabs/Documentation/actions/workflows/publish-site-beta.yml) |
 
 | Tooling Repos |
